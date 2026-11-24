@@ -15,7 +15,7 @@
 //   4. clear BPs, detach, terminate.
 //
 // Trap sites (per-build):
-//   msedge.dll  158.0.4370.33  RVA 0x9430db6   mov rdx, r12   (pre string-ctor)
+//   msedge.dll  157.0.4341.42  RVA 0x9430db6   mov rdx, r12   (pre string-ctor)
 //   chrome.dll  157.0.8103.39  RVA 0x955673    mov rdx, r15
 //
 // Dr7 offset in x64 CONTEXT = 0x70 (not 0xA8, which is inside the FPU area).

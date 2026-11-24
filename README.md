@@ -29,10 +29,12 @@ LICENSE
 ## Chromium reference files
 
 AppBound0's logic mirrors parts of three Chromium files, not vendored here:
-- elevation_service_idl.idl
-- caller_validation.cc
-- google_chrome_install_modes.h
-<!-- TODO author: add chromium.googlesource.com links for the three files above -->
+
+- [`elevation_service_idl.idl`](https://chromium.googlesource.com/chromium/src/+/157.0.8103.39/chrome/elevation_service/elevation_service_idl.idl)
+- [`caller_validation.cc`](https://chromium.googlesource.com/chromium/src/+/157.0.8103.39/chrome/elevation_service/caller_validation.cc)
+- [`google_chrome_install_modes.h`](https://chromium.googlesource.com/chromium/src/+/157.0.8103.39/chrome/install_static/google_chrome_install_modes.h)
+
+Links are pinned to the exact M157 release the code targets.
 
 ## License
 
